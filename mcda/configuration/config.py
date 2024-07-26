@@ -30,8 +30,8 @@ class Config:
     _keys_of_dict_values (Dict[str, List[str]]): dictionary containing keys and their corresponding sub-keys.
 
     Methods:
-    __init__(input_config: dict): instantiate a configuration object.
-    _validate(input_config, valid_keys, str_values, int_values, list_values, dict_values): validate the input
+    __init__(input_config_settings: dict): instantiate a configuration object.
+    _validate(input_config_settings, valid_keys, str_values, int_values, list_values, dict_values): validate the input
     configuration.
     get_property(property_name: str): retrieve a property from the configuration.
     check_dict_keys(dic: Dict[str, Any], keys: List[str]): check if a specific key is in a dictionary.

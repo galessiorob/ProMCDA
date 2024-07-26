@@ -351,7 +351,7 @@ def read_matrix(input_matrix_path: str) -> pd.DataFrame:
     Read an input matrix from a CSV file and return it as a DataFrame.
     Set the 'Alternatives' column as index column.
 
-    Note: a default path is assigned to the input_matrix_path in mcda_run.py, and it is used
+    Note: a default path is assigned to the input_matrix_path in promcda_core.py, and it is used
     unless a custom path is set in an environmental variable in the environment.
 
     Parameters:

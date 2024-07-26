@@ -5,7 +5,7 @@ import os
 
 from unittest.mock import patch
 
-from mcda.mcda_run import main
+from mcda.promcda_core import main
 
 tests_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))  # Get the tests root directory
 
